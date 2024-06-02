@@ -1,0 +1,54 @@
+[
+    {
+        "_id": "c61db3a9c9c5a7d053f4eedb",
+        "user_credentials": {
+            "email": "adv1@hi.com",
+            "password": "25d55ad283aa400af464c76d713c07ad",
+            "start_date": "",
+            "end_date": ""
+        },
+        "link_id": "",
+        "private_image_url": "20240120_162014_73852162.jpg",
+        "public_image_url": "https://jbg-touchscreen-cms-prod.s3.ap-southeast-2.amazonaws.com/advertisement/20240120_162014_73852162.jpg",
+        "specials": [
+        ],
+        "have_video": false,
+        "private_video_url": "",
+        "public_video_url": "",
+        "hotel_names": [
+            "Elysian Shores Hotel"
+        ],
+        "hotel_ids": [
+            "elysian_shores_hotel"
+        ]
+    },
+    {
+        "_id": "b73dd56bcf190dc94f88a535",
+        "user_credentials": {
+            "email": "adv2@hi.com",
+            "password": "25d55ad283aa400af464c76d713c07ad",
+            "start_date": "",
+            "end_date": ""
+        },
+        "link_id": "",
+        "private_image_url": "20240120_162014_73852162.jpg",
+        "public_image_url": "https://jbg-touchscreen-cms-prod.s3.ap-southeast-2.amazonaws.com/advertisement/20240120_162014_73852162.jpg",
+        "specials": [
+            {
+                "start_date": "YYYY-MM-DD| include this day",
+                "end_date": "YYY-MM-DD| exclude this day",
+                "private_image_url": "",
+                "public_image_url": ""
+            }
+        ],
+        "have_video": true,
+        "private_video_url": "20240120_162034_49892409.mp4",
+        "public_video_url": "https://jbg-touchscreen-cms-prod.s3.ap-southeast-2.amazonaws.com/videos/20240120_162034_49892409.mp4",
+        "hotel_names": [
+            "Elysian Shores Hotel"
+        ],
+        "hotel_ids": [
+            "elysian_shores_hotel"
+        ]
+    }
+]

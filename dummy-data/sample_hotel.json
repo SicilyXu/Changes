@@ -1,0 +1,78 @@
+{
+  "_id": "elysian_shores_hotel",
+  "name": "Elysian Shores Hotel",
+  "is_deleted": true,
+  "is_valid": true,
+  "attributes": {
+    "global_id": "07000000",
+    "name": "our hotel",
+    "attributes_inner": "overlay",
+    "attributes_is_index": true,
+    "attributes": [
+      {
+        "global_id": "07010000",
+        "name": "Rooms & Suites",
+        "attributes_inner": "sidebar",
+        "attributes": [
+          {
+            "global_id": "07010001",
+            "name": "ONE BEDROOM PREMIUM KING ROOM",
+            "left_description": "Take in views of the garden and awaken to birdsong from this one bedroom King Bed premium garden view room. Enjoy customisable technology and the mini-fridge throughout your stay for your added convenience. This room is perfect for a business traveller",
+            "right_description": "•  1 x King sized bed\n\nFEATURES\n\n•  Complimentary Wifi\n•  Seaside view or Habourside view\n•  Coffee station\n•  In-room safe\n•  Mini refrigerator\n•  24 hours maintenance\n•  24 hours room service\n•  24 hours house keeping\n•  Complimentary airport shuttle\n•  Complimentary access to gym & pool\n•  Ensuite bathroom\n•  Cable TV with 24 channels",
+            "custom_actions": "no-brand-picture",
+            "private_brand_url": "20240120_162030_80969401.jpg",
+            "public_brand_url": "https://jbg-touchscreen-cms-prod.s3.ap-southeast-2.amazonaws.com/hotels/holiday_inn_express_hotel/images/20240120_162030_80969401.jpg",
+            "private_image_urls": [
+              "20240120_162030_80969401.jpg",
+              "20240120_162030_42244170.jpg",
+              "20240120_162030_11886493.jpg",
+              "20240120_162030_47270227.jpg"
+            ],
+            "public_image_urls": [
+              "https://jbg-touchscreen-cms-prod.s3.ap-southeast-2.amazonaws.com/hotels/holiday_inn_express_hotel/images/20240120_162030_80969401.jpg",
+              "https://jbg-touchscreen-cms-prod.s3.ap-southeast-2.amazonaws.com/hotels/holiday_inn_express_hotel/images/20240120_162030_42244170.jpg",
+              "https://jbg-touchscreen-cms-prod.s3.ap-southeast-2.amazonaws.com/hotels/holiday_inn_express_hotel/images/20240120_162030_11886493.jpg",
+              "https://jbg-touchscreen-cms-prod.s3.ap-southeast-2.amazonaws.com/hotels/holiday_inn_express_hotel/images/20240120_162030_47270227.jpg"
+            ],
+            "QR": {}
+          }
+        ],
+        "private_image_url": "20240120_162030_23550478.jpg",
+        "public_image_url": "https://jbg-touchscreen-cms-prod.s3.ap-southeast-2.amazonaws.com/hotels/holiday_inn_express_hotel/images/20240120_162030_23550478.jpg"
+      }
+    ]
+  },
+  "location": "string",
+  "user_credentials": {
+    "email": "JBG@hi.com",
+    "password": "25d55ad283aa400af464c76d713c07ad"
+  },
+  "theme": {
+    "--clr-standard": "rgb(35, 75, 146)",
+    "--clr-light": "rgb(69, 154, 216)",
+    "--clr-dark": "rgb(14, 41, 99)",
+    "--clr-standard-light": "rgb(30, 119, 182)",
+    "--clr-dark-background": "rgba(14, 41, 99, 0.75)",
+    "--clr-white": "rgb(255, 255, 255)",
+    "--clr-black": "rgb(18, 18, 18)"
+  },
+  "landing": {
+    "private_hotel_slides": [
+      "20240315_061527_45914696.jpeg",
+      "20240315_061531_22559738.jpeg"
+    ],
+    "public_hotel_slides": [
+      "https://jbg-touchscreen-cms-prod.s3.amazonaws.com/hotels/holiday_inn_express_hotel/images/20240315_061527_45914696.jpeg",
+      "https://jbg-touchscreen-cms-prod.s3.ap-southeast-2.amazonaws.com/hotels/holiday_inn_express_hotel/images/20240315_061531_22559738.jpeg"
+    ],
+    "private_hotel_videos": [
+      "20240404_045528_61720489.mp4",
+      "20240404_045515_45285321.mp4"
+    ],
+    "public_hotel_videos": [
+      "https://jbg-touchscreen-cms-prod.s3.amazonaws.com/hotels/holiday_inn_express_hotel/videos/20240404_045528_61720489.mp4"
+    ],
+    "private_hotel_logo": "20240120_162034_99999999.jpg",
+    "public_hotel_logo": "https://jbg-touchscreen-cms-prod.s3.ap-southeast-2.amazonaws.com/hotels/holiday_inn_express_hotel/banners/20240120_162034_99999999.jpg"
+  }
+}

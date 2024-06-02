@@ -1,0 +1,48 @@
+#root {
+    background-color: whitesmoke;
+}
+
+.form-control{
+    border-radius: 0 !important;
+}
+
+.genenric-button {
+    background-color: rgb(38, 63, 252);
+    color: white;
+    border: 1px solid white;
+    padding: 0.3em 1.5em
+}
+
+.genenric-button:hover {
+    background-color: white;
+    color: rgb(38, 63, 252);
+    border: 1px solid rgb(38, 63, 252);
+    padding: 0.3em 1.5em
+}
+
+.genenric-button-red {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 1px solid white;
+    padding: 0.3em 1.5em
+}
+
+.genenric-button-red:hover {
+    background-color: white;
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    padding: 0.3em 1.5em
+}
+
+.logout-button {
+    background-color: rgb(2,10,61);
+    color: white;
+    border: 1px solid white;
+    padding: 0.3em 1.5em;
+}
+
+.logout-button:hover {
+    background-color: white;
+    color: rgb(2,10,61);
+    border: 1px solid rgb(2,10,61);
+}

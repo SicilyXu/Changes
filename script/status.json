@@ -1,0 +1,20 @@
+{
+    "maintainer_duration": 1,
+    "assets_path": "D:/Codes/Touchscreen/TouchscreenCMSv3/frontend-offline/public",
+    "current_hotel_index": 12,
+    "hotel_ids": [
+        "crown_hotel",
+        "ela_beach_hotel",
+        "gateway_hotel",
+        "grand_papua_hotel",
+        "hilton_hotel",
+        "holiday_inn_express_hotel",
+        "holiday_inn_hotel",
+        "loloata_hotel",
+        "stanley_hotel",
+        "bird_of_paradise_hotel",
+        "highlander_hotel",
+        "huon_gulf_hotel",
+        "elysian_shores_hotel"
+    ]
+}

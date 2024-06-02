@@ -1,0 +1,267 @@
+/* Ensure the whole container fills the viewport height and changes background color */
+html {
+  font-size: min(1vw, 1vh);
+}
+
+.global-width {
+  padding-left: max(0px, calc(50vw - 50vh));
+  padding-right: max(0px, calc(50vw - 50vh));
+}
+
+.row {
+  /* just to avoid the layout mismatch*/
+  --bs-gutter-x: 0 !important;
+  font-family: "Montserrat", "Helvetica Neue", -apple-system, system-ui, sans-serif;
+  ;
+}
+
+.head-image {
+  width: 100%;
+  position: relative;
+
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .text-bottom-left {
+    position: absolute;
+    bottom: 4rem;
+    left: 6rem;
+    color: #fff;
+    background-color: transparent;
+    font-size: 4rem;
+    font-weight: 999;
+    animation: fadeInAndGrow 2.5s ease-out forwards;
+
+  }
+
+  .icon-top-right {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    color: #fff;
+    background-color: transparent;
+    animation: fadeInAndGrowReverse 2.5s ease-out forwards;
+  }
+}
+
+.head-image::after {
+  z-index: 0;
+  content: "";
+  display: block;
+  padding-top: 62.3%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+
+}
+
+/* Center your content vertically and horizontally */
+.present-header {
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(2, 10, 61);
+  font-size: 4rem;
+
+  .left-text {
+    padding-left: 6rem;
+    line-height: 1.3;
+    letter-spacing: 0.;
+  }
+}
+
+.present-footer {
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(farthest-corner at center, rgb(36, 60, 240) 0%, rgb(19, 32, 126) 100%);
+  font-size: 3.5rem;
+
+  .header-text {
+    font-size: 3rem;
+  }
+
+  .left-text {
+    padding-left: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+  }
+
+}
+
+.present-img {
+  width: 40rem;
+  position: absolute;
+  transform: translate(-60%, -28%);
+  z-index: 99;
+}
+
+.present-img2 {
+  width: 12rem;
+  position: absolute;
+  transform: translate(-85%, -70%);
+
+  z-index: 99;
+}
+
+p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.demo-show {
+  background-color: rgb(2, 10, 61);
+  margin: 0;
+
+  .main-show {
+    display: inline-block;
+    box-sizing: border-box;
+    color: rgb(168, 145, 66);
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    border: 0.1rem solid rgb(168, 145, 66);
+    margin: 2rem;
+    padding: 2rem;
+  }
+
+  .img-container {
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    transition: padding 0.3s ease;
+    box-sizing: border-box;
+    display: block;
+    height: 30rem;
+    cursor: pointer;
+  }
+
+  .img-container:hover {
+    padding: 0;
+  }
+
+  .img-hotel {
+    margin-bottom: 1vw;
+    object-fit: contain;
+    height: 30rem
+  }
+
+  .img-container.animate img {
+    animation: jump-and-grow 600ms forwards;
+  }
+}
+
+.advertiser-place {
+  background-color: rgb(2, 10, 61);
+  line-height: 1.2;
+  font-size: 1.2rem;
+
+  .header {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .footer {
+    color: rgb(168, 145, 66);
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 600;
+    letter-spacing: 0.8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+}
+
+@keyframes fadeInAndGrow {
+  from {
+    opacity: 0;
+    transform: scale(0.5) translateX(-5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+  }
+}
+
+@keyframes fadeInAndGrowReverse {
+  from {
+    opacity: 0;
+    transform: scale(0.5) translateX(5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+  }
+}
+
+
+@keyframes jump-and-grow {
+  0% {
+    transform: scale(1) translateY(0);
+  }
+
+  5% {
+    transform: scale(0.95, 1.05) translateY(0);
+  }
+
+  10% {
+    transform: scale(1) translateY(0);
+  }
+
+  20% {
+    transform: scale(1.05, 0.95) translateY(-0.2rem);
+  }
+
+  30% {
+    transform: scale(1.1, 0.9) translateY(-1rem);
+  }
+
+  40% {
+    transform: scale(1.05, 0.95) translateY(-0.2rem);
+  }
+
+  50% {
+    transform: scale(1) translateY(0);
+  }
+
+  55% {
+    transform: scale(0.9, 1.1) translateY(0);
+  }
+
+  60% {
+    transform: scale(1) translateY(0);
+  }
+
+  70% {
+    transform: scale(1.1, 0.9) translateY(-0.4rem);
+  }
+
+  80% {
+    transform: scale(1.2, 0.8) translateY(-2rem);
+  }
+
+  90% {
+    transform: scale(1.1, 0.9) translateY(-0.4rem);
+  }
+
+  100% {
+    transform: scale(1) translateY(0);
+  }
+
+
+}
